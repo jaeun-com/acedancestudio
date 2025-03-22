@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ace Dance Studio | Trainning Program </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Archivo', sans-serif;
+      background: #fffcf2;
+      color: #c51822;
+    }
+
+    .navbar {
+      background-color: #c51822;
+      box-shadow: none;
+    }
+
+    .navbar-brand, .nav-link, .dropdown-item {
+      color: #fff !important;
+      font-weight: 600;
+    }
+
+    .hero {
+      height: 90vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #c51822;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: 900;
+    }
+
+    .dropdown-menu .dropdown-item {
+      color: black !important;
+    }
+
+    section {
+      padding: 4rem 2rem;
+    }
+
+    h2 {
+      color: #c51822;
+      font-weight: bold;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    p, li {
+      line-height: 1.6;
+    }
+
+    .box {
+      background: #fffcf2;
+      border: 2px solid #c51822;
+      border-radius: 1rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .benefits-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .benefits-list li::before {
+      content: '✔';
+      color: #c51822;
+      margin-right: 10px;
+    }
+
+    .footer {
+      background-color: #c51822;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color: #fff;
+      transition: all 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #ffd700;
+    }
+
+    .learn-more {
+      text-align: center;
+      background: #fffcf2;
+      border: 2px solid #c51822;
+      border-radius: 1rem;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+
+    .learn-more a {
+      color: #c51822;
+      font-weight: bold;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .learn-more a:hover {
+      color: #880000;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="homepage.html">Ace Dance Studio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="homepage.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="programDropdown" role="button" data-bs-toggle="dropdown">Programs</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="sched.html">Dance Classes</a></li>
+              <li><a class="dropdown-item" href="training.html">Training Program</a></li>
+              <li><a class="dropdown-item" href="events.html">Auditions & Events</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <h1>Training Program</h1>
+      <p>Unlock your full potential with our comprehensive training.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="box">
+        <h2>About the Program</h2>
+        <p>Ace Dance Studio is the first academy in the Philippines to focus on artist development through a training system used in Korea and Japan. Our program combines technical training with performance-based coaching, ensuring participants are ready for the professional world.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="box">
+        <h2>Activities and Benefits</h2>
+        <ul class="benefits-list">
+          <li>Monthly Evaluations</li>
+          <li>Studio Access</li>
+          <li>Private Auditions</li>
+          <li>1:1 Expert Feedback</li>
+          <li>Cultural Exposure</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="learn-more">
+        <h2>Want to Learn More?</h2>
+        <p>Discover how Ace Dance Studio can transform your journey into a thriving career. <a href="about.html">Learn More</a> today!</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Ace Dance Studio. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/1EA2eN6MnJ/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/ace_dancestudio_makati"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@acedancestudio8"><i class="fab fa-tiktok"></i></a>
+      <a href="https://youtube.com/@ace_dancestudio_makati?si=BboEyiaf1Beq9grm"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

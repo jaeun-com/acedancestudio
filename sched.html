@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ace Dance Studio | Dance Classes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Archivo', sans-serif;
+      background: #fffcf2;
+      color: #c51822;
+    }
+
+    .navbar {
+      background-color: #c51822;
+      box-shadow: none;
+    }
+
+    .navbar-brand,
+    .nav-link,
+    .dropdown-item {
+      color: #fff !important;
+      font-weight: 600;
+    }
+
+    .hero {
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #c51822;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: 900;
+    }
+
+    .dropdown-menu .dropdown-item {
+      color: black !important;
+    }
+
+    .classes-section {
+      padding: 4rem 2rem;
+    }
+
+    .classes-section h2 {
+      text-align: center;
+      color: #c51822;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+
+    .classes-section .table {
+      border: 3px solid #c51822;
+      background-color: #fffcf2;
+      color: #c51822;
+    }
+
+    .classes-section th,
+    .classes-section td {
+      color: #c51822;
+      vertical-align: middle;
+    }
+
+    .classes-section thead {
+      background-color: #c51822;
+    }
+
+    .classes-section thead th {
+      color: #fffcf2;
+    }
+
+    .classes-section .btn-danger {
+      background-color: #c51822;
+      border-color: #c51822;
+    }
+
+    .table {
+      margin-top: 2rem;
+    }
+
+    .footer {
+      background-color: #c51822;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      border-radius: 0 0 2rem 2rem;
+    }
+
+    .footer .social-icons i {
+      font-size: 1.5rem;
+      margin: 0 10px;
+      color: white;
+      transition: color 0.3s ease;
+    }
+
+    .footer .social-icons i:hover {
+      color: #c51822;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="homepage.html">
+        <img src="logo.png" alt="Ace Dance Studio Logo" style="max-height: 40px; margin-right: 10px;">
+        Ace Dance Studio
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="homepage.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="programDropdown" role="button" data-bs-toggle="dropdown">Programs</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="sched.html">Dance Classes</a></li>
+              <li><a class="dropdown-item" href="training.html">Training Program</a></li>
+              <li><a class="dropdown-item" href="events.html">Auditions & Events</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="text-center">
+      <h1>Dance Classes</h1>
+      <p class="lead">Find the perfect dance class for you.</p>
+    </div>
+  </section>
+
+  <section class="classes-section">
+    <div class="container">
+      <h2>Class Schedules</h2>
+      <table class="table table-bordered text-center align-middle">
+        <thead>
+          <tr>
+            <th>Class</th>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Instructor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="6">K-pop Covers</td>
+            <td>Monday</td>
+            <td>6:00 - 7:30 PM</td>
+            <td>Julienne</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>6:00 - 7:30 PM</td>
+            <td>Trisha</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>4:00 - 5:00 PM (Kids)</td>
+            <td>Carlette</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>6:00 - 7:30 PM</td>
+            <td>Gab</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>10:30 - 11:30 AM</td>
+            <td>Ciel Oh</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>1:00 - 2:30 PM</td>
+            <td>Trisha</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Hip-hop</td>
+            <td>Wednesday</td>
+            <td>7:30 - 9:00 PM</td>
+            <td>Gab</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>3:00 - 4:00 PM (Kids)</td>
+            <td>Gab</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>11:30 AM - 1:00 PM (Basics)</td>
+            <td>Gab</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Basic Femme</td>
+            <td>Thursday</td>
+            <td>7:30 - 9:00 PM</td>
+            <td>Demi</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>8:00 - 9:30 PM</td>
+            <td>Demi</td>
+          </tr>
+          <tr>
+            <td>Super Basics</td>
+            <td>Friday</td>
+            <td>12:00 - 1:00 PM</td>
+            <td>Julienne</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Ballet</td>
+            <td>Wednesday</td>
+            <td>4:00 - 5:00 PM (Kids)</td>
+            <td>Finina</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>1:00 - 2:30 PM (Adults)</td>
+            <td>Finina</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>2:30 - 3:30 PM (Baby)</td>
+            <td>Finina</td>
+          </tr>
+          <tr>
+            <td>Adult Jazz</td>
+            <td>Wednesday</td>
+            <td>12:00 - 1:00 PM</td>
+            <td>Finina</td>
+          </tr>
+          <tr>
+            <td>Retro</td>
+            <td>Friday</td>
+            <td>5:00 - 6:00 PM</td>
+            <td>Carlette</td>
+          </tr>
+          <tr>
+            <td>Pilates</td>
+            <td>Saturday</td>
+            <td>10:00 - 11:00 AM</td>
+            <td>J.P</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div style="text-align: center; margin-top: 20px;">
+        <a href="https://bit.ly/acedancestudioclassform" class="btn" style="background-color: #c51822; color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+          Register Now <i class="fas fa-arrow-right" style="margin-left: 8px;"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer mt-5">
+    <p>&copy; 2025 Ace Dance Studio. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/1EA2eN6MnJ/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/ace_dancestudio_makati"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@acedancestudio8"><i class="fab fa-tiktok"></i></a>
+      <a href="https://youtube.com/@ace_dancestudio_makati?si=BboEyiaf1Beq9grm"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
